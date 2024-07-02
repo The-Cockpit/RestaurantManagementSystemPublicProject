@@ -1,0 +1,22 @@
+.custom-event-editor {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-event-editor tr {
+    height: 40px; /* Adjust height as needed */
+}
+
+.custom-event-editor td {
+    padding: 5px 10px;
+    vertical-align: middle;
+    text-align: right; /* Titles align to the right */
+}
+
+.e-field {
+    width: 100%; /* Ensure the field components take full width */
+}
+
+.e-textlabel {
+    width: 30%; /* Adjust as needed for title column width */
+}

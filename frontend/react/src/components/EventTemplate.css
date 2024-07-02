@@ -1,0 +1,32 @@
+.template-wrap {
+    height: 98%;
+    /*font-size: 25px;*/
+    font-size: 1.2vmin;
+    font-weight: 1000;
+    text-align: center;
+    border: 1% solid #5C8374;
+    border-radius: 10px;
+/*     padding-right: 1.5vw;
+    padding-left: 1.5vw; */
+}
+
+.icon-conteiner {
+    height: 50px;
+    width: 50px;
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.template-wrap:hover {
+    cursor: pointer;
+}
+
+.e-appointment-details {
+    height: 100%;
+}
+
+.e-appointment-details>div {
+    height: 100%;
+}

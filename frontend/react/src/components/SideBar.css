@@ -1,0 +1,33 @@
+.sidebar-inside-container {
+  height: 76vh;
+  width: 100%;
+  background-color: #033;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+
+.sidebar-item {
+  margin: 5px 0;
+  padding: 7.6px;
+  padding-right: 5vw;
+  font-size: 0.9vw;
+  text-align: end;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.sidebar-item:hover{
+  color: #000;
+  background-color: #5C8374;
+  border-radius: 5px;
+}
+
+.sidebar-item.selected {
+  background-color: #9EC8B9;
+  /* or any color you want for the selected item */
+  color: white;
+  /* optional: change text color for better contrast */
+}

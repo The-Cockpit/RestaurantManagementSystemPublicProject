@@ -1,0 +1,18 @@
+
+.google-login{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 30vh;
+    left: 32vw;
+    width: 30vw;
+    height: 40vh;
+    background-color: var(--color2);
+    border: none;
+    border-radius: 30px;
+    padding:30px;
+    img{
+        height: 8vh;
+    }
+}

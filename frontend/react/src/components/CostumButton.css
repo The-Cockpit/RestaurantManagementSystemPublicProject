@@ -1,0 +1,59 @@
+.btn {
+    outline: none;
+    width: 13rem;
+    height: 4rem;
+    background-color: white;
+    color: var(--color1);
+    border-radius: 4rem;
+    text-align: center;
+    border: 0.2rem solid var(--color2);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 0.1rem;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--color1);
+}
+
+.btn:active {
+    letter-spacing: 0.2rem;
+}
+
+.effect1 {
+    width: 4rem;
+    border-color: var(--color2);
+    border-width: 0.3rem;
+    border-right-color: white;
+    animation: rotate 1s linear infinite;
+    font-size: 0;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.effect2 {
+    background-color: white;
+}
+
+.effect2::before {
+    content: "\f00c"; /* FontAwesome check icon */
+    font-family: "Font Awesome 5 Free"; /* Correct font-family for FontAwesome 5 */
+    font-weight: 900; /* Required for FontAwesome 5 free solid icons */
+    color: var(--color1);
+    font-size: 2.3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,12 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.e-schedule .e-appointment-details{
+    padding: 0 !important; 
+}
+.louding{
+    height: 78vh;
+    width: 100%;
+    font-size: xx-large;
+    background: white;
+}
+

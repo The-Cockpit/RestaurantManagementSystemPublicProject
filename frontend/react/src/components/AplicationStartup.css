@@ -1,0 +1,45 @@
+.content-conteiner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.AplicationStartup{
+  background: #1B4242;
+}
+
+.sidebar {
+  width: 0;
+  transition: width 300ms;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.sidebar.open {
+  width: 20vw;
+  /* initial width when isManager is true */
+}
+
+.sidebar.expanded {
+  width: 25vw;
+  /* expanded width on hover */
+}
+.dummy-navbar{
+  height: 12vh;
+}
+
+.content {
+  flex-grow: 1;
+  width: 100vw;
+  transition: width 300ms;
+  background-color: #f4f4f4;
+  display: flex;
+height: 80%;
+}
+
+.content.shrink {
+  width: 70vw;
+}
